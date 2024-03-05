@@ -6,5 +6,10 @@ jobs:
       runs-on: ubuntu-latest
       steps:
        - uses: actions/checkout@v1
-         name: Checkout Code 
+         name: Checkout Code 
+       - name: Echo Demo
+         run: echo Hello World
+       - name: index.html content
+         run: cat index.html
+      
 
